@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import streamlit as st
+import paho.mqtt.client as mqtt
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
